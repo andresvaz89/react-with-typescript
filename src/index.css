@@ -55,6 +55,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+textarea {
+  font-family: inherit;
+  margin-bottom: 8px;
+  padding-left: 5px;
+}
+
 ul,
 h4 {
   margin: 0;
@@ -74,4 +80,16 @@ ul li {
   margin-bottom: 16px;
   max-width: 320px;
   padding: 8px 32px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 4px 6px;
+  margin: 0 0 4px;
 }
